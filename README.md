@@ -81,7 +81,7 @@ export default function Header() {
                     <Link to="/experience">Experience</Link>
                     <Link to="/blog">Blog</Link>
                 </div>
-            <header>
+            </header>
     )
 }
 ```
@@ -147,7 +147,7 @@ export default function Home() {
                 lacinia eget ac dui. Nunc efficitur libero tortor, quis aliquam nunc tristique eu. In egestas
                 lectus a porta imperdie</p>
             </div>
-        <div/>
+        </div>
     )
 }
 ```
@@ -272,6 +272,7 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: author, label: Author }
+      - { name: path, label: Path }
       - { name: body, label: Body, widget: markdown }
 ```
 
@@ -664,8 +665,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+(https://www.gatsbyjs.com/docs/sourcing-from-netlify-cms/#deploying-to-netlify)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
